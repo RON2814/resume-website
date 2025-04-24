@@ -5,10 +5,9 @@ import type { Swiper as SwiperInstance } from "swiper";
 import projects from "../data/projects";
 import getProjectImageURL from "../utils/image-project-util";
 
-// Import Swiper styles
 import "swiper/css";
-import "swiper/css/pagination";
 import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 interface CarouselProps {
   activeIndex: number;
