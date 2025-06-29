@@ -19,6 +19,7 @@ const data = [
   { file: "php.svg", name: "PHP", category: "backend" },
   { file: "python.svg", name: "Python", category: "language" },
   { file: "tailwind-css.svg", name: "Tailwind CSS", category: "frontend" },
+  { file: "typescript.svg", name: "TypeScript", category: "frontend" },
 ];
 
 const skillsData = {

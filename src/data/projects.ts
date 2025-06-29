@@ -13,16 +13,33 @@ const projects = [
     ],
   },
   {
+    name: "CLift - E-commerce Project",
+    description:
+      "An e-commerce website built using Next.js with Clerk for user authentication, Sanity as the content management system, and Stripe for secure online payments. The site supports product browsing, cart management, and checkout, providing a smooth shopping experience.",
+    link: "https://clift-ecommerce-project.vercel.app/",
+    src_code: "https://github.com/RON2814/ecommerce",
+    image: "project2.webp",
+    video: "project2.mp4",
+    tools: [
+      { name: "Next.js", file: "next-dot-js.svg" },
+      { name: "TypeScript", file: "typescript.svg" },
+      { name: "Sanity", file: "sanity.svg" },
+      { name: "Tailwind CSS", file: "tailwind-css.svg" },
+      { name: "Stripe", file: "stripe.svg" },
+      { name: "Vercel", file: "vercel.svg" },
+    ],
+  },
+  {
     link: "https://github.com/RON2814/forum_site",
     name: "Progrum - Forum Site for Programmers",
     description:
       "A website application that gather programmers to share their knowledge and experience. using Django, HTML, CSS, JavaScript, and MySQL.",
-    image: "project2.webp",
-    video: "project2.mp4",
+    image: "project3.webp",
+    video: "project3.mp4",
     tools: [
       { name: "Django", file: "django.svg" },
       { name: "HTML", file: "html-5.svg" },
-      { name: "CSS", file: "css-3.svg" },
+      { name: "Tailwind CSS", file: "tailwind-css.svg" },
       { name: "JavaScript", file: "javascript.svg" },
       { name: "MySQL", file: "mysql.svg" },
     ],

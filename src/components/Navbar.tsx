@@ -71,12 +71,12 @@ export default function Navbar() {
 
       {/* Mobile menu overlay */}
       <div
-        ref={menuRef}
         className={`fixed inset-0 bg-black bg-opacity-50 z-[9998] transition-opacity duration-300 md:hidden ${
           isOpen ? "opacity-100" : "opacity-0 pointer-events-none"
         }`}
       >
         <div
+          ref={menuRef}
           className={`absolute right-0 top-0 h-full w-64 bg-white shadow-lg transform transition-transform duration-300 ease-in-out ${
             isOpen ? "translate-x-0" : "translate-x-full"
           }`}

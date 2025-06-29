@@ -91,15 +91,15 @@ const Contact = () => {
         <div className="flex md:order-1 md:flex-1 flex-col">
           <div className="text-center md:text-start my-8">
             <h1 className="text-2xl">Get in Touch</h1>
-            <p className="my-2">
+            <p className="my-2 text-gray-500">
               I would love to hear from you! If you have suggestion or feedback
               feel free to reach out through my contact form or social media
               channels
             </p>
-            <p>+63 976 319 9300</p>
+            <p className="text-gray-500">+63 976 319 9300</p>
             <a
               href="mailto:johnaaronapayong@gmail.com"
-              className="hover:underline"
+              className="hover:underline text-gray-500"
             >
               johnaaronapayong@gmail.com
             </a>

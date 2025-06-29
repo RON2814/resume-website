@@ -55,7 +55,7 @@ const Carousel: React.FC<CarouselProps> = ({ activeIndex, onSlideChange }) => {
         {projects.map((project, index) => (
           <SwiperSlide key={index} className="flex flex-col items-center">
             <div
-              className="bg-gray-100 bg-opacity-40 hover:bg-pink-200 hover:bg-opacity-40 transition-colors duration-300 overflow-hidden shadow-md flex items-center justify-center p-2 h-[25vh] w-full cursor-pointer"
+              className="bg-gray-100 bg-opacity-40 hover:bg-pink-200/40 transition-colors duration-300 overflow-hidden shadow-md flex items-center justify-center p-2 h-[25vh] w-full cursor-pointer"
               onClick={() => handleSlideClick(index)}
             >
               <img
